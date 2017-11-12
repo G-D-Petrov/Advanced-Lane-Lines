@@ -85,16 +85,17 @@ Example for the whole process image pipeline can be seen here:
 ### Pipeline (video)
 
 #### 1. Link to the final project outout video
-Here's a ![alt text][video1]
+Here's a link to the ![Project Video][video1]
 
 #### 2. Link to the final challenge outout video
-Here's a ![alt text][video2]
+Here's a link to the ![Challenge Video][video2]
 
 #### 3. Link to the final harder challenge outout video
-Here's a ![alt text][video3]
+Here's a link to the ![Harder Challenge Video][video3]
+
 ---
 
-### Discussion
+## Discussion
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
