@@ -15,8 +15,9 @@ The goals / steps of this project are the following:
 
 [image1]: ./output_images/Undistorted.jpg "Undistorted"
 [image2]: ./output_images/Undistorted_and_Warped_Image.jpg "Road Transformed"
-[image3]: ./output_images/Threshold.jpg "Binary Example"
+[image3]: ./output_images/Threshold.jpg "Threshold Example"
 [image4]: ./output_images/ProcessedImage.jpg "Output"
+[image5]: ./output_images/binary_output.jpg "Binary Example"
 [video1]: ./project_video.mp4 "Project Video"
 [video2]: ./challenge_video_output.mp4 "Challenge Video"
 [video3]: ./harder_challenge_video_output.mp4 "Harder Challenge Video"
@@ -71,6 +72,9 @@ This resulted in the following source and destination points:
 I use 2 funcitons to fit 2nd degree polynomials - sliding_window_polyfit and polyfit_using_prev_fit. 
 First is for first time deteciton and the second is building on already found fits.
 These funciton can be found in code cells 24 and 25.
+Example of the output can be seen here:
+
+![alt text][image5]
 
 The radius and the distance to the center is computed in function calc_curv_rad_and_center_dist in code cell 26.
 All other drawing is done in draw_line and draw_data in cell 27.
